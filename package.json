@@ -6,7 +6,7 @@
   "scripts": {
     "start": "node index.js"
   },
-  "author": "",
+  "author": "HelloRusk",
   "license": "ISC",
   "dependencies": {
     "promptly": "^3.0.3",
