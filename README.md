@@ -1,5 +1,4 @@
-[![npm version](https://badge.fury.io/js/shot-utas.svg)](https://badge.fury.io/js/shot-utas)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![npm version](https://badge.fury.io/js/shot-utas.svg)](https://badge.fury.io/js/shot-utas) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # ShotUTAS
 
