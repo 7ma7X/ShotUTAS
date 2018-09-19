@@ -7,7 +7,7 @@
 ## Installation
 
 ```
-npm install shot-utas
+npm install shot-utas -g
 ```
 
 **Headless Chrome を使用しており、環境によっては正常に作動しない可能性あり（[Troubleshooting](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md)）**
@@ -15,10 +15,23 @@ npm install shot-utas
 ## Usage
 
 ```
-npm start
+npm root -g
 ```
 
-学籍番号とパスワードの入力が求められるので順に入力する（ただし入力したパスワードはコマンドライン上に表示されない）。
+で表示されるディレクトリに移動した後、
+
+```
+cd shot-utas
+npm link
+```
+
+以後
+
+```
+shot-utas
+```
+
+で起動する。学籍番号とパスワードの入力が求められるので順に入力する（ただし入力したパスワードはコマンドライン上に表示されない）。
 
 ```
 学籍番号: 0000000000
