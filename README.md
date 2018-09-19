@@ -5,7 +5,7 @@
 ## Installation
 
 ```
-npm install shotutas
+npm install shot-utas
 ```
 
 **Headless Chrome を使用しており、環境によっては正常に作動しない可能性あり（[Troubleshooting](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md)）**
