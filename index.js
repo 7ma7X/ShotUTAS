@@ -1,3 +1,4 @@
-const utasshot = require('./lib/utasshot');
+'use strict';
 
-utasshot.shot();
+const shotutas = require('./lib/shotutas');
+shotutas.shot();
