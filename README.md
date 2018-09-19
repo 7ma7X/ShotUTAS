@@ -1,3 +1,6 @@
+[![npm version](https://badge.fury.io/js/shot-utas.svg)](https://badge.fury.io/js/shot-utas)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 # ShotUTAS
 
 コマンドライン上で UTAS(UTokyo Academic affairs System) にログインし、フリーキーワード検索を行い、シラバスのスクリーンショットを撮影できるツールです。
