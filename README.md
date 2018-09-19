@@ -15,19 +15,6 @@ npm install shot-utas -g
 ## Usage
 
 ```
-npm root -g
-```
-
-で表示されるディレクトリに移動した後、
-
-```
-cd shot-utas
-npm link
-```
-
-以後
-
-```
 shot-utas
 ```
 
