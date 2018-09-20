@@ -1,6 +1,6 @@
 {
   "name": "shot-utas",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "A simple commandline tool for screenshotting syllabus on UTAS",
   "bin": {
     "shot-utas": "index.js"
