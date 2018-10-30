@@ -2,12 +2,12 @@
 
 # ShotUTAS
 
-コマンドライン上で UTAS(UTokyo Academic affairs System) にログインし、フリーキーワード検索を行い、シラバスのスクリーンショットを撮影できるツールです。
+コマンドライン上で UTAS(UTokyo Academic affairs System) にログインし、フリーキーワード検索を行い、シラバスのスクリーンショットを撮影できるツール。
 
 ## Installation
 
 ```
-npm install shot-utas -g
+$ npm install shot-utas -g
 ```
 
 **Headless Chrome を使用しており、環境によっては正常に作動しない可能性あり（[Troubleshooting](https://github.com/GoogleChrome/puppeteer/blob/master/docs/troubleshooting.md)）**
@@ -15,10 +15,10 @@ npm install shot-utas -g
 ## Usage
 
 ```
-shot-utas
+$ shot-utas
 ```
 
-で起動する。学籍番号とパスワードの入力が求められるので順に入力する（ただし入力したパスワードはコマンドライン上に表示されない）。
+学籍番号とパスワードの入力が求められるので順に入力する（ただし入力したパスワードはコマンドライン上に表示されない）。
 
 ```
 学籍番号: 0000000000
@@ -63,11 +63,5 @@ shot-utas
 <img src="https://user-images.githubusercontent.com/36184621/45759233-70cb7900-bc62-11e8-9235-d73d5beb4b27.png" alt="計算機言語論_pic2.png">
 
 `スクショ撮影を続けますか？ [Y/n] ` に `y` で答えると番号の入力に戻る。  
-`n` で答えると `検索を続けますか？ [Y/n] ` と表示される。
- `y` で答えると検索キーワードの入力に戻り、`n` で答えると終了する。
-
-<br>
-<br>
-<br>
-
-現状では、検索の際に学部学科を指定することができず、また101件目以降の候補が表示されないので、キーワードをできるだけ絞って使うしかないです。。。
+`n` で答えると `検索を続けますか？ [Y/n] ` と表示される。  
+`y` で答えると検索キーワードの入力に戻り、`n` で答えると終了する。
