@@ -1,13 +1,13 @@
 {
   "name": "shot-utas",
-  "version": "1.0.5",
+  "version": "1.1.0",
   "description": "A simple commandline tool for screenshotting syllabus on UTAS",
   "bin": {
     "shot-utas": "index.js"
   },
   "author": "HelloRusk",
   "license": "MIT",
-  "devDependencies": {
+  "dependencies": {
     "promptly": "^3.0.3",
     "puppeteer": "^1.9.0"
   }
